@@ -3859,6 +3859,8 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
+		<row><td>_Built1_4C3C53C61B154F699443553C2A68C366.exe</td><td/><td>C:\Users\Akhil Reddy\Desktop\vote.ico</td><td>1</td></row>
+		<row><td>_Built_1376894C819F4CA2ABFE07915142456A.exe</td><td/><td>C:\Users\Akhil Reddy\Desktop\vote.ico</td><td>1</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -3991,7 +3993,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{45D913DB-36C1-416E-96D8-607AD12B33E6}</td></row>
 		<row><td>ISUSSignature</td><td>{3757A751-6B1A-4FA1-B263-59860DAB8D7A}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewShortcuts</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4532,8 +4534,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>_Built</td><td>poll_app1</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>PollApp.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>PollApp.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td/><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built</td><td>poll_app1</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>PollApp.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built_1376894C819F4CA2ABFE07915142456A.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>_Built1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>PollApp.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>_Built1_4C3C53C61B154F699443553C2A68C366.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
