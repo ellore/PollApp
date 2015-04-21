@@ -1,44 +1,30 @@
 # PollApp
-Windows Application for offline polling system
+Windows Application for offline polling system. 
 
-####Installation Requirements
-Windows Platform for running the setup
+The application provides an interface for Admin and voters. The Admin can upload voters and contestants list as CSV and can view the statistics of the voting. Each voter is displayed the list of contestants for each post and he can vote only once.
 
-Visual studio platform is required for using the code
+#### Features
+- For storing data, text files are being used. These files are portable and are useful for keeping records.
+- Design of the application is made dynamic using design sheets. This allows the user to upload contestant list of large size.
+- There can be any number of posts for voting.
 
-Flexera software is required for development purpose
+####Installation
+For installing, run the setup in Windows OS (version 7 or greater).
 
-####usage
-Username for Admin is "admin" and password is also "admin". The username and password are hardcoded into Program and can be changed from 'Form4.vb' file.
+### Usage
 
-Voter's List must uploaded in .csv format. It must contain two columns first containing the username and the second password.
+##### Logging in
+The username and password for Admin are "admin". Currently, the credentials be changed through the application. Please refer [here]() for changing them if you're a developer. The login system identifies between voter and the admin.
 
-Candidate's list must also be uploaded in .csv format. It can conatin finitely many columns with each of them having their first row to be the name of the post.
+##### CSV
+Voter list and contestant list must uploaded in .csv format. The voter list must contain two columns containing the username and password. The contestant list should contain the posts in the first row and the respective contestants in each column.
 
-Each column can contain finitely many rows including
+##### Admin Panel
+Throught the admin panel, admin can see the results for each post in the form of charts. He can reset votes at any point of time.
 
-zero each representing a candidates name.
+#### For contributors
 
-Based on the username user logs into admin system or voting system.
+The code can be run using Visual Studio IDE (version 2010 or greater). For modifying the setup solution Flexera Software is used.
 
-Admin can see the results in the form of charts.
-
-Admin can reset votes at any point of time.
-
-There are "next", "back" buttons to move across the tabs.
-
-####Main Features
-Design of the application is made dynamic using design sheets.
-
-For storing data text files are being used.
-
-Any number of candidates can apply for any post.
-
-There can be any number of posts for voting.
-
-####Bugs and drawbacks
-There is no confirmation during resetting votes.
-
-Password is not hidden
-
-There is room for adding images but not implemented  
+##### For changing Login credentials
+The login credentials can be changed manually in [Form4.vb file](https://github.com/ellore/PollApp/blob/8f279df7065460309dc4c7294fcca8157829a426/PollApp/PollApp/Form4.vb#L4).
