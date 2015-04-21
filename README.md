@@ -11,15 +11,15 @@ The application provides an interface for Admin and voters. The Admin can upload
 ####Installation
 For installing, run the setup in Windows OS (version 7 or greater).
 
-### Usage
+#### Usage
 
-##### Logging in
-The username and password for Admin are "admin". Currently, the credentials be changed through the application. Please refer [here](https://github.com/ellore/PollApp/blob/master/README.md#for-changing-login-credentials) for changing them if you're a developer. The login system identifies between voter and the admin.
+###### Logging in
+The username and password for Admin are "admin". Currently, the credentials be changed through the application. Please refer [here](#for-changing-login-credentials) for changing them if you're a developer. The login system identifies between voter and the admin.
 
-##### CSV
+###### CSV
 Voter list and contestant list must uploaded in .csv format. The voter list must contain two columns containing the username and password. The contestant list should contain the posts in the first row and the respective contestants in each column.
 
-##### Admin Panel
+###### Admin Panel
 Throught the admin panel, admin can see the results for each post in the form of charts. He can reset votes at any point of time.
 
 #### For contributors
