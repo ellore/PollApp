@@ -14,7 +14,7 @@ For installing, run the setup in Windows OS (version 7 or greater).
 ### Usage
 
 ##### Logging in
-The username and password for Admin are "admin". Currently, the credentials be changed through the application. Please refer [here]() for changing them if you're a developer. The login system identifies between voter and the admin.
+The username and password for Admin are "admin". Currently, the credentials be changed through the application. Please refer [here](https://github.com/ellore/PollApp/blob/master/README.md#for-changing-login-credentials) for changing them if you're a developer. The login system identifies between voter and the admin.
 
 ##### CSV
 Voter list and contestant list must uploaded in .csv format. The voter list must contain two columns containing the username and password. The contestant list should contain the posts in the first row and the respective contestants in each column.
